@@ -1,10 +1,10 @@
-<h1>$category.getName() tasks:</h1>
+<h1>$doctor.getName() $doctor.getSpecial() patients:</h1>
 
-<ul>
-  #foreach($task in $category.getTasks())
+<!-- <ul>
+  #foreach($task in $doctor.getPatients())
   <li>$task.getDescription()</li>
   #end
-</ul>
+</ul> -->
 <a href="/categories/$category.getId()/tasks/new">Add a new task</a>
 </br>
 <a href="/categories">All categories</a>
